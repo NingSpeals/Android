@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SelectedFood</string>
+    <string name="name_str">姓名</string>
+    <string name="selected_food">开始选餐</string>
+    <string name="gender_str">性别</string>
+    <string name="male_str">男</string>
+    <string name="female_str">女</string>
+    <string name="hobby_str">喜好</string>
+    <string name="hot_str">辣</string>
+    <string name="seafood_str">海鲜</string>
+    <string name="sour_str">酸</string>
+    <string name="budget_str">预算</string>
+</resources>

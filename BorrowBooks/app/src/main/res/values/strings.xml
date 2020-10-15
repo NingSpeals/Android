@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">BorrowBooks</string>
+    <string name="title_str">借书</string>
+    <string name="reader_str">读者：</string>
+    <string name="sex_str">性别：</string>
+    <string name="male_str">男</string>
+    <string name="female_str">女</string>
+    <string name="borrowTime_str">借出时间：</string>
+    <string name="returnTime_Str">归还时间：</string>
+    <string name="hobby_str">爱好：</string>
+    <string name="checkBoxhistory_str">历史</string>
+    <string name="checkBoxliterary_str">悬疑</string>
+    <string name="checkBoxmystery_srt">文艺</string>
+    <string name="age_str">年龄</string>
+    <string name="bookName_str">书名</string>
+    <string name="bookType_str">类型</string>
+    <string name="useAge_str">适用年龄</string>
+    <string name="searchBtn_str">查找</string>
+    <string name="nextBtn_str">下一个</string>
+</resources>

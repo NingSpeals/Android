@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bg"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="24sp"
+        android:textColor="#CCCC"
+        android:text="sign up" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="22sp"
+        android:textColor="#CCCC"
+        android:layout_gravity="center_horizontal"
+        android:text="Immoc Immoc Immoc \n Immoc Immoc Immoc" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/add_photo"
+        android:layout_margin="10dp"></ImageView>
+
+    <ProgressBar
+        android:id="@+id/pro_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_margin="10dp"
+        android:visibility="invisible"></ProgressBar>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="Nname And SurName"
+        android:textColorHint="#CCCC"
+        android:background="@mipmap/border"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content"></EditText>
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="Phone"
+        android:textColorHint="#CCCC"
+        android:gravity="center"
+        android:background="@mipmap/border"
+        android:layout_height="wrap_content"></EditText>
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:hint="passWord"
+        android:textColorHint="#CCCC"
+        android:gravity="center"
+        android:layout_marginRight="30dp"
+        android:background="@mipmap/border"
+        android:inputType="number"
+
+        android:layout_height="wrap_content"></EditText>
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@mipmap/btn"
+        android:text="Register"
+        android:inputType="phone"
+        android:layout_height="wrap_content"
+        android:onClick="register"></Button>
+</LinearLayout>
